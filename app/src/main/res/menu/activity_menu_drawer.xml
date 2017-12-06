@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+    <group android:checkableBehavior="single">
+
+
+        <item
+            android:id="@+id/People"
+            android:icon="@drawable/ic_people_black_24dp"
+            android:title="People" />
+        <item
+            android:id="@+id/ShoppingList"
+            android:icon="@drawable/ic_shopping_cart_black_24dp"
+            android:title="Shopping List" />
+        <item
+            android:id="@+id/TasksList"
+            android:icon="@drawable/ic_dashboard_black_24dp"
+            android:title="Tasks List" />
+        <item
+            android:id="@+id/Schedule"
+            android:icon="@android:drawable/ic_menu_my_calendar"
+            android:title="Schedule" />
+        <item
+            android:id="@+id/Settings"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Log out" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/help"
+                android:icon="@drawable/ic_help_black_24dp"
+                android:title="Get Help" />
+            <item
+                android:id="@+id/contact"
+                android:icon="@drawable/contact"
+                android:title="Contact Us" />
+        </menu>
+    </item>
+
+</menu>

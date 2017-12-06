@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.techobbyist.HouseHold">
+    <uses-permission android:name="android.permission.SEND_SMS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/lol"
+        android:label="HouseHold Manager"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".RegisterActivity" />
+        <activity android:name=".MainActivity" />
+
+        <uses-permission android:name="android.permission.CAMERA" />
+        <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+        <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+        <uses-permission android:name="android.permission.MEDIA_CONTENT_CONTROL" />
+
+        <activity android:name=".uploadImage" />
+        <activity
+            android:name=".AddImageActivity"
+            android:label="@string/title_activity_add_image"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".menu"
+            android:label="@string/title_activity_menu"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".addnewtask" />
+        <activity android:name=".LogoutActivity" />
+        <activity android:name=".gethelp" />
+        <activity android:name=".contactus"></activity>
+    </application>
+
+</manifest>
